@@ -1,0 +1,98 @@
+body {
+  background-color: #3e474f;
+  font-family: 'Asar', serif;
+}
+
+.main-content{
+  color: white;
+  font-size: 4em;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.social{
+  width: 5em;
+  height: auto;
+  /*margin-right: 1%;*/
+}
+
+
+.email{
+  width: 6em;
+  height: auto;
+  /*margin-right: 1%;*/
+}
+
+
+
+.connect hr {
+  /*margin-bottom: 30px;*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4aaaa5;
+}
+
+.connect{
+  margin-top: 8%;
+  color: darkgray;
+}
+
+
+/*blinking cursor*/
+.blinking-cursor {
+  position: relative;
+  bottom: 8px;
+  font-weight: 100;
+  font-size: 40px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
