@@ -200,3 +200,16 @@ body {
 .navbar-default {
   padding: 5px 0;
 }
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  height: 96%;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 2%;
+}
