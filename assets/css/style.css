@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
+  min-height:100%;
+    position:relative;
+
   background-color: #3e474f;
   font-family: 'Asar', serif;
 }
@@ -9,34 +16,6 @@ body {
   margin-top: 8%;
   margin-bottom: 4%;
 }
-
-.social{
-  width: 5em;
-  height: auto;
-  /*margin-right: 1%;*/
-}
-
-
-.email{
-  width: 6em;
-  height: auto;
-  /*margin-right: 1%;*/
-}
-
-
-
-.connect hr {
-  /*margin-bottom: 30px;*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: #4aaaa5;
-}
-
-.connect{
-  margin-top: 7.5%;
-  color: darkgray;
-}
-
 
 /*blinking cursor*/
 .blinking-cursor {
@@ -231,4 +210,95 @@ h1 {
 .fa-arrow-down {
   color: white;
   font-size: 3em;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+.footer-distributed{
+	background-color: #23292d;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 15px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+  margin-top: 15px;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.clear { clear: both; height: 60px; }
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
 }
