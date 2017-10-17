@@ -282,7 +282,10 @@ footer{
 
 .clear { clear: both; height: 60px; }
 
-
+.aboutme {
+  margin-top: 2%;
+  font-size: 19px;
+}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
