@@ -3,6 +3,18 @@
 
 export const projects = [
   {
+    name: 'CBA Supermarket World',
+    repo: 'jimelj/CBASupermarketWorld',
+    description: 'Internal sales tool for CBA field reps: search supermarkets by ZIP code, view on an interactive Mapbox map, pull Census demographics, track store status, and log notes. Built with Next.js 16, React 19, Tailwind CSS 4, Supabase (PostgreSQL), and Mapbox GL JS. Features 3-tier store search (Google Places → Foursquare → OpenStreetMap) with aggressive caching.',
+    url: 'https://github.com/jimelj/CBASupermarketWorld',
+  },
+  {
+    name: 'Community Observer',
+    repo: 'jimelj/communityObserver',
+    description: 'Local news website for the Community Observer publication. Built with Astro 4, Tailwind CSS, and Cloudflare Pages with hybrid SSR. Features a responsive newspaper aesthetic, advertisement slot system, contact forms via Cloudflare Workers, and SEO-optimized page structure.',
+    url: 'https://github.com/jimelj/communityObserver',
+  },
+  {
     name: 'CustomerService',
     repo: 'jimelj/CustomerService',
     description: 'A customer service management tool.',
